@@ -1,0 +1,124 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+header {
+  display: flex;
+
+  width: 100%;
+
+  background: #262729;
+  color: white;
+  padding: 15px;
+}
+.gh {
+  font-size: 45px;
+  margin-right: 22px;
+}
+.topLeft {
+  display: flex;
+}
+.webPageFormat {
+  display: flex;
+  margin-top: 20px;
+}
+.TopThings {
+  font-weight: bold;
+  margin-left: 13px;
+  width: 327px;
+  display: flex;
+  justify-content: space-between;
+}
+#topInput {
+  width: 340px;
+  font-size: 15px;
+  color: gray;
+  background: rgba(64, 68, 72);
+  border: none;
+  border-radius: 5px;
+  padding: 7px 7px;
+}
+.boxRepoOutermost {
+  margin-left: 25px;
+  width: 74%;
+}
+#profile {
+  padding-left: 50px;
+}
+.cat,
+.catt,
+.cats {
+  margin-left: 5px;
+  background: #ccc;
+  border-radius: 4px;
+}
+.rNav {
+  border-bottom: 1px solid #ccc;
+}
+p {
+  display: flex;
+}
+.NewGreen {
+  border-bottom: solid 1px #ccc;
+  padding: 10px;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  width: 500px;
+}
+.repoContainer div {
+  margin: auto;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: blue;
+}
+.individualRepo {
+  padding: 10px;
+  border-bottom: solid 1px #ccc;
+}
+.individualRepo > div {
+  padding: 5px;
+}
+#langTime {
+  display: flex;
+}
+.time {
+  margin-left: 30px;
+}
+time#sp {
+  margin-left: 5px;
+}
+/* .rNav::after {
+  border-bottom: solid red 3px;
+  margin-bottom: -1px;
+} */
+#estr {
+  margin-top: 15px;
+  margin-right: 10px;
+  /* display: flex; */
+  float: right;
+  align-content: flex-end;
+}
+.right {
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-end;
+  width: 850px;
+}
+.fa {
+  margin: 0 5px;
+}
